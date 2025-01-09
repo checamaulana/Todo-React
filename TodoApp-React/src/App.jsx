@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -25,7 +25,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8">
+    <div className="min-h-screen bg-red-300 py-8">
       <div className="max-w-md mx-auto bg-white p-8 rounded shadow">
         <h1 className="text-2xl font-bold text-gray-800 mb-4">Todo App</h1>
         <form onSubmit={handleSubmit} className="flex gap-2 mb-6">
